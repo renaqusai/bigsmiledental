@@ -1,0 +1,114 @@
+body {
+	width: auto;
+	background-color: white;
+	color: rgb(202, 52, 52);
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 36px;
+    margin: 10px 10px 10px 10px;
+    
+	
+}
+
+.wrapper {
+    text-align: center;
+}
+
+header {
+	height: 50px;
+	width: 98%;
+	line-height: 50px;
+    background-color: rgb(34, 118, 178);
+    color: white;
+    margin:10px 10px 20px 10px;
+    padding-left: 10px;
+}
+
+nav {
+	height: 174px;
+	width: 98%;
+	line-height: 50px;
+	background-color: white;
+    color:"white";
+    margin:10px 10px 20px 10px;
+    font-size: 84px;
+    text-align: center;
+}
+
+.container {
+    width: 98%;
+    margin:10px 0px, 0px, 0px;
+	position: relative;
+}
+
+section {
+	padding-top: 40px;
+    background-color: rgb(34, 118, 178);
+    color: white;
+	height: 320px;
+	width: 600px;
+	position: relative;
+    margin-right: 10px;
+    padding-left: 10px;
+    text-align: center;	
+
+}
+
+aside {
+	
+    background-color: rgb(34, 118, 178);
+    text-align: center;
+    color: white;
+	height: 320px;
+	width: 750px;
+	float:right;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+footer {
+	height: 50px;
+    width: 98%;
+    color: white;
+	line-height: 50px;
+	position:relative;
+	bottom:0;
+	left:0px;
+	background-color: rgb(34, 118, 178);
+	margin-top: 20px;
+}
+.thumbnail {
+    position: relative;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+/* Make thumbnail larger when hovered. */
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+/* Maintains aspect ratio of image but does not allow image to be any wider than set amount of pixels. */
+.thumbnail img {
+    max-width: 400px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/* The label on the image. */
+.label {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    height: 60px;
+    line-height: 60px;
+    width: 98%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    background-color: rgb(34, 118, 178);
+}
