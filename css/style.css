@@ -41,7 +41,6 @@ nav {
 }
 
 section {
-	padding-top: 40px;
     background-color: rgb(34, 118, 178);
     color: white;
 	height: 320px;
@@ -50,6 +49,7 @@ section {
     margin-right: 10px;
     padding-left: 10px;
     text-align: center;	
+    padding:10px 5px 10px 5px;
 
 }
 
@@ -62,8 +62,9 @@ aside {
 	width: 750px;
 	float:right;
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	right: 10px;
+    top: 0px;
+    padding:10px 5px 10px 5px;
 }
 
 footer {
@@ -111,4 +112,86 @@ footer {
     color: white;
     font-size: 1.2em;
     background-color: rgb(34, 118, 178);
+}
+@media screen and (max-width: 1450px) {
+    img {
+        width: auto;
+    }
+    header {
+        width: 98%;
+        height: auto;
+    }
+    
+    nav {
+        padding: 0px 15px 0px 15px;
+        font-size: 100%;
+    }
+    .navbar {
+        font-size: 90%;
+    }
+    section {
+        width: 47%;
+        font-size: 90%;
+
+    }
+    aside {
+        width: 47%;
+        font-size: 90%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 980px) {
+    img {
+        width: 30%;
+    }
+    header {
+        width: 98%;
+        height: auto;
+    }
+    
+    nav {
+        padding: 0px 15px 0px 15px;
+        font-size: 100%;
+    }
+    .navbar {
+        font-size: 90%;
+    }
+    section {
+        width: 47%;
+        font-size: 90%;
+
+    }
+    aside {
+        width: 47%;
+        font-size: 90%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 780px) {
+    img {
+        width: auto;
+    }
+    header {
+        width: 98%;
+        height: auto;
+    }
+    
+    nav {
+        padding: 0px 15px 0px 15px;
+        font-size: 70%
+        
+    }
+    .navbar {
+        font-size: 70%;
+    }
+    section {
+        width: 47%;
+        font-size: 50%;
+        padding:10px 5px 10px 5px;
+
+    }
+    aside {
+        width: 47%;
+        padding: 10px 5px 10px 5px;
+    }
 }
