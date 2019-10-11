@@ -139,10 +139,13 @@ footer {
         font-size: 90%;
         margin-left: 10px;
     }
+    .thumbnail img {
+        width: 47%;
+    }
 }
 @media screen and (max-width: 980px) {
     img {
-        width: 30%;
+        width: 90%;
     }
     header {
         width: 98%;
@@ -166,10 +169,13 @@ footer {
         font-size: 90%;
         margin-left: 10px;
     }
+    .thumbnail img {
+        width: 90%;
+    }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 640px) {
     img {
-        width: auto;
+        width: 80%;
     }
     header {
         width: 98%;
@@ -193,5 +199,8 @@ footer {
     aside {
         width: 47%;
         padding: 10px 5px 10px 5px;
+    }
+    .thumbnail {
+        width: 90%;
     }
 }
